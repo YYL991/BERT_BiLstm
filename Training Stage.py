@@ -167,10 +167,6 @@ class BiLSTMLighting(pl.LightningModule):
 
 
 
-
-
-
-
 def test():
     # Load previously trained optimal model parameters
     model = BiLSTMLighting.load_from_checkpoint(checkpoint_path=PATH,drop=dropout, hidden_dim=hidden_dim, output_dim=class_num,extra_hidden_dim=extra_hidden_dim)
