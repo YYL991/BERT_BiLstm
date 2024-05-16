@@ -1,1 +1,1 @@
-#The code of Training Stage,Signature Genaration Stage and Testing Stage
+#The code of Training Stage,Signature Generation Stage and Testing Stage
